@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-image: linear-gradient(#fff, #CAFF5A);
+    display: grid;
+    text-align: center;
+}
+.container>h1{
+    left: 30%;
+    text-align: center;
+    font-size: 4rem;
+    z-index: auto; 
+    font-weight: bolder;
+}
+.container>p{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.container>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.days{
+    display: inline-flex;
+    text-align: center;
+
+}
+.day-one{
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+    margin: 2rem;
+    border-radius: 50px;
+}
+.day-two{
+    padding: 1rem;
+    color: black;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 50px;
+}
+.container>.time-table>ul>li{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    font-size: 1.5rem;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+.plus{
+    text-align: end;
+    font-size: 50px;
+}
+.time{
+    text-align: start;
+    width: 200px;
+    text-align: center;
+}
+.brief{
+    padding-top: 2px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+.event{
+    text-align: center;
+    font-weight: bolder;
+    white-space: initial;
+    display: inline-block;
+    font-size: 30px;
+}
+.event>span{
+    font-weight: lighter;
+    text-align: left;
+    font-size: 15px;
+}
